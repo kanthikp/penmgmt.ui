@@ -41,7 +41,17 @@
     "react-redux": "7.0.3",
     "react-router-dom": "5.0.0",
     "redux": "4.0.1",
-    "redux-thunk": "2.3.0"
+    "redux-thunk": "2.3.0",
+    "chartist": "0.10.1",
+    "classnames": "2.2.6",
+    "history": "4.7.2",
+    "perfect-scrollbar": "1.4.0",
+    "prettier": "1.16.4",
+    "prop-types": "15.7.1",
+    "react-chartist": "0.13.3",
+    "react-google-maps": "9.4.5",
+    "react-scripts": "2.1.5",
+    "react-swipeable-views": "0.13.1"
   },
   "devDependencies": {
     "@babel/cli": "7.4.4",
@@ -162,6 +172,16 @@
   },
   "eslintConfig": {
     "root": true,
+    "settings": {
+      "import/resolver": {
+        "node": {
+          "paths": [
+            "./src",
+            "./node_modules"
+          ]
+        }
+      }
+    },
     "extends": [
       "eslint:recommended",
       "plugin:import/errors",

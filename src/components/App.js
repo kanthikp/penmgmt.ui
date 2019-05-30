@@ -10,8 +10,8 @@ import React from "react";
 import { hot } from "react-hot-loader";
 
 import Button from "@material-ui/core/Button";
-import PrimarySearchAppBar from './PrimarySearchAppBar';
-import ResponsiveDrawer from './ResponsiveDrawer';
+//import PrimarySearchAppBar from './PrimarySearchAppBar';
+//import ResponsiveDrawer from './ResponsiveDrawer';
 
 // This is a class-based component because the current
 // version of hot reloading won't hot reload a stateless
@@ -22,7 +22,7 @@ class App extends React.Component {
     const activeStyle = { color: 'blue' };
     return (
       <div>
-        <PrimarySearchAppBar/>
+        {/* <PrimarySearchAppBar/> */}
         {/* <ResponsiveDrawer/> */}
         <Button variant="contained" color="primary">
           Material
